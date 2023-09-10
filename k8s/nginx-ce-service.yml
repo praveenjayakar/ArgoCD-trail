@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: nginx-deploymnet-service
 spec:
-  selector:
-    app: nginx-deploymnet
+  selector: nginx-deployment
+    app: nginx-deployment
   ports:
     - protocol: TCP
       port: 80
