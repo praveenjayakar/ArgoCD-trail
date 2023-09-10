@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: liferay
-          image: liferay/portal:7.4.3.86-ga6
+          image: liferay/portal:7.4.3.86-ga86
           ports:
             - containerPort: 8080
 
